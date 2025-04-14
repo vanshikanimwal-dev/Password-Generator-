@@ -1,71 +1,42 @@
-🔐 Java Password Generator with UI
-Hey there! 👋
-This is a simple but sleek Password Generator built with Java and a graphical user interface (GUI). Whether you're securing your accounts or just tired of "123456", this app helps you create strong, random passwords in just one click. 💥
+# 🔐 Java Password Generator with UI
 
-🧠 Features
-✅ Clean and user-friendly interface
+A sleek and simple password generator built in Java with a graphical user interface. Create secure, customizable passwords with just one click! 🔥
 
-🔒 Random password generation
+---
 
-🛠 Choose your password length
+## 🚀 Features
 
-✨ Include/exclude:
+- Generate random strong passwords
+- Choose password length
+- Toggle character sets:
+  - Uppercase letters (A–Z)
+  - Lowercase letters (a–z)
+  - Numbers (0–9)
+  - Special characters (!@#$%^&* etc.)
+- Copy password to clipboard
+- Lightweight, responsive UI
 
-Uppercase letters (A-Z)
+---
 
-Lowercase letters (a-z)
+## 🛠 Built With
 
-Numbers (0-9)
+- **Java**
+- **GUI Framework**: JavaFX / Swing (replace based on your project)
+- **IDE**: IntelliJ IDEA / Eclipse / NetBeans
 
-Special characters (!@#...)
+---
 
-📋 Copy to clipboard functionality
+## 📦 Getting Started
 
-🚀 Lightweight and fast
+### Prerequisites
 
-🧰 Tech Stack
-Language: Java
+- Java JDK 8 or higher
+- JavaFX SDK (if using JavaFX)
+- A Java IDE like IntelliJ or Eclipse or vs code
 
-GUI Framework: Swing / JavaFX (pick whichever you're using)
+### Installation
 
-IDE: IntelliJ / Eclipse / NetBeans (optional)
-
-💻 How to Run It
-Clone the repo:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/password-generator-java-ui.git
-Open it in your IDE (like IntelliJ or Eclipse)
-
-Build & Run the project:
-
-For JavaFX: make sure JavaFX libraries are added and VM args are set properly
-
-For Swing: just run the Main class 🎯
-
-📸 Sneak Peek
-![image](https://github.com/user-attachments/assets/c29b7825-e806-4dc0-8aa5-ad51b38bb217)
-
-
-🛡 Security Note
-This is a beginner-friendly project meant for learning purposes. For real-world password management, always use secure & trusted solutions like Bitwarden or 1Password. 😎
-
-🧠 Future Upgrades (Optional ideas)
-Save passwords to a local file
-
-Dark mode toggle 🌙
-
-Add strength meter
-
-Export to .txt or .csv
-
-🙌 Credits
-Made with 💻 and ☕ by Vanshika Nimwal
-Wanna collab or have ideas? Hit me up!
-
-📄 License
-This project is open-source under the MIT License.
-Feel free to fork it, remix it, or share it.
-
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/vanshikanimwal-dev/password-generator-java-ui.git
+   cd password-generator-java-ui
